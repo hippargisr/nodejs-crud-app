@@ -11,7 +11,7 @@ app.use(cors());
 
 // DB Connect
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://root:root@cluster0.njjfe5u.mongodb.net/crud-mern?retryWrites=true&w=majority");
+mongoose.connect("");
 
 // app route
 app.post('/insert', async (req, res)=>{
